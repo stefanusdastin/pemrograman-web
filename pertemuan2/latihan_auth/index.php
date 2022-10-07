@@ -3,11 +3,11 @@ session_start();
 // membuat database / isikan dengan nama kamu
 $database = [
     'username' => 'dastin',
-    'password' => 'open123' 
+    'password' => 'open123'
 ];
 
 //cek apakah terdapat submit yang dilakukan
-if (isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     //mengambil nilai yang dikirim melalui method post ke dalam variabel
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -20,10 +20,10 @@ if (isset($_POST['submit'])){
         header("location:admin.php");
     } else {
         //memunculkan pemberitahuan gagal login dan redirect ke login page
-        echo '<script> alert("Username atau password salah!);
+        echo '<script> alert("Username atau password salah!");
         window.location="login-page.php"; </script>';
     }
 } else {
     //jika tidak ada submit mengembalikan ke login page
-    echo '<script> window.location="login-page.php"; </script>';    
+    echo '<script> window.location="login-page.php"; </script>';
 }
