@@ -4,9 +4,9 @@ session_start();
 if (isset($_SESSION['username'])) {
     session_destroy();
     echo '<script>
-        alert("Anda nerhasil logout");
+        alert("Anda berhasil logout");
         window.location="login-page.php";
-    </ script>';
+    </script>';
 } else {
     header("location:login-page.php");
     exit();

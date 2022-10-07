@@ -1,7 +1,7 @@
 <?php
 session_start();
 //cek apakah ada username
-if (!isset($_COOKIE['username'])) {
+if (!isset($_SESSION['username'])) {
     header('Location:login-page.php');
 }
 ?>
@@ -17,7 +17,7 @@ if (!isset($_COOKIE['username'])) {
 
 <body>
     <h1>
-        <p align=center>Hello, Selamat Datang <?= $SESSION['username']; ?>!!!</p>
+        <p align=center>Hello, Selamat Datang <?= $_SESSION['username']; ?>!!!</p>
     </h1>
     <p align=center>Kamu di page <b>Admin</b></p>
     <br>
