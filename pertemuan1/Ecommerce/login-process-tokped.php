@@ -2,8 +2,8 @@
 session_start();
 // membuat database / isikan dengan nama kamu
 $database = [
-    'email' => 'dastin',
-    'password' => '1234'
+    'email' => 'dastinmaq777@gmail.com',
+    'password' => '1366x766'
 ];
 
 //cek apakah terdapat submit yang dilakukan

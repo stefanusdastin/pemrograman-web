@@ -59,7 +59,7 @@ if (!isset($_SESSION['email'])) {
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">
                 <img src="img/logo.svg" alt="" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@ if (!isset($_SESSION['email'])) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">For You</a>
@@ -98,10 +98,19 @@ if (!isset($_SESSION['email'])) {
                             <h4 class="bi bi-bag-heart"></h4>
                         </a>
                     </li>
-                    <li class="nav-item me-2 mt-2">
-                        <a class="nav-link" href="#">
-                            <h4 class="bi bi-person"></h4>
-                        </a>
+                    <li class="nav-item dropdown mt-2">
+                        <div class="dropdown">
+                            <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="30" class="rounded-circle" />
+                            </a>
+                            <ul class="dropdown-menu text-center dropdown-menu-end" style="border-radius: 20px">
+                                <li>
+                                    <img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="50" class="rounded-circle" />
+                                </li>
+                                <li><span class="dropdown-item-text fw-bold">Stefanus Dastin</span></li>
+                                <li><a class="dropdown-item" href="#">Your Account</a></li>
+                                <li><a class="dropdown-item" href="logout-process-tokped.php">Logout</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -316,6 +325,43 @@ if (!isset($_SESSION['email'])) {
         </div>
     </div>
     <!-- Akhir Tabel Produk -->
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+                <a class="navbar-brand" href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php">
+                    <img src="img/logo.svg" alt="" />
+                </a>
+                <p class="text-muted">© 2022</p>
+            </div>
+
+            <div class="col mb-3"></div>
+
+            <div class="col mb-3"></div>
+
+            <div class="col mb-3">
+                <h5>Menu</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">For You</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Category</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5>Others</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Helps</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacts</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Akhir Footer -->
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

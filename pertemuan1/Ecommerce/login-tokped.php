@@ -45,12 +45,12 @@ if (isset($_COOKIE['email'])) {
             </div>
         </div>
         <div id="con-form" class="container">
-            <form action="index-tokped.php" method="POST">
+            <form action="login-process-tokped.php" method="POST">
                 <div class="row justify-content-center mb-3">
                     <div class="col-md-8">
                         <div class="mb-3 mt-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input name="email" type="text" class="form-control" type="text" aria-describedby="emailHelp">
+                            <input name="email" type="email" class="form-control" type="text" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                     </div>
