@@ -106,7 +106,6 @@ if (!isset($_SESSION['email'])) {
                                 <li>
                                     <img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="50" class="rounded-circle" />
                                 </li>
-                                <li><span class="dropdown-item-text fw-bold">Stefanus Dastin</span></li>
                                 <li><a class="dropdown-item" href="#">Your Account</a></li>
                                 <li><a class="dropdown-item" href="logout-process-tokped.php">Logout</a></li>
                             </ul>
