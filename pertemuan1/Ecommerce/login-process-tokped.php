@@ -21,9 +21,9 @@ if (isset($_POST['submit'])) {
     } else {
         //memunculkan pemberitahuan gagal login dan redirect ke login page
         echo '<script> alert("Username atau password salah!");
-        window.location="login-tokped.php"; </script>';
+        window.location="login-page-tokped.php"; </script>';
     }
 } else {
     //jika tidak ada submit mengembalikan ke login page
-    echo '<script> window.location="login-tokped.php"; </script>';
+    echo '<script> window.location="login-page-tokped.php"; </script>';
 }

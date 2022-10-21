@@ -102,12 +102,16 @@ if (!isset($_SESSION['email'])) {
                         <div class="dropdown">
                             <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="30" class="rounded-circle" />
                             </a>
-                            <ul class="dropdown-menu text-center dropdown-menu-end" style="border-radius: 20px">
-                                <li>
-                                    <img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="50" class="rounded-circle" />
+                            <ul class="dropdown-menu dropdown-menu-end" style="border-radius: 20px">
+                                <li class="ms-2 text-center">
+                                    <p class="dropdown-item-text fw-bold"><img src="http://localhost/pemrograman-web/pertemuan1/Ecommerce/img/profilepict.png" alt="Stefanus Dastin" width="75" class="rounded-circle" />Stefanus Dastin</p>
                                 </li>
-                                <li><span class="dropdown-item-text fw-bold">Stefanus Dastin</span></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Your Account</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Helps</a></li>
                                 <li><a class="dropdown-item" href="logout-process-tokped.php">Logout</a></li>
                             </ul>
                         </div>
@@ -343,7 +347,7 @@ if (!isset($_SESSION['email'])) {
             <div class="col mb-3">
                 <h5>Menu</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="http://localhost/pemrograman-web/pertemuan1/Ecommerce/admin-tokped.php" class="nav-link p-0 text-muted">Home</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">For You</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Explore</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Category</a></li>
