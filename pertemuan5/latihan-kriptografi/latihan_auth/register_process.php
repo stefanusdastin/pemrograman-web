@@ -14,7 +14,8 @@ if (isset($_POST['submit'])) {
 
     //  Memasukkan data user ke tabel users
     //  $conn_db berasal dari config.php
-    $result = mysqli_query($conn_db, "INSERT INTO users(username,gender,email,password,created_at)VALUES('$username','$gender,'$email','$password','$created')");
+    $result = mysqli_query($conn_db, "INSERT INTO users(username,gender,email,password,created_at)
+    VALUES('$username','$gender,'$email','$password','$created')");
 
     //  Menampilkan pesan ketika customer telah ditambah
     echo "Users" . $username ." added successfully. <a href = 'login-page.php'>Login</a>";
