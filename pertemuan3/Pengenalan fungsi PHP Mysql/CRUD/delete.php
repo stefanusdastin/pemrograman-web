@@ -1,5 +1,3 @@
-9 lines (16 sloc)  591 Bytes
-
 <?php
 // Membuat koneksi database dengan memanggil config.php
 include_once("config.php");
